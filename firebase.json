@@ -1,0 +1,53 @@
+{
+  "firestore": { "rules": "firestore.rules", "indexes": "firestore.indexes.json" },
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": ["node_modules", ".git", "*.log"],
+      "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run build"]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "tripthread-app-21bbf",
+          "appId": "1:444330951212:ios:c2dce703b2c2c48db50789",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tripthread-app-21bbf",
+          "configurations": {
+            "android": "1:444330951212:android:30a76737cda1b847b50789",
+            "ios": "1:444330951212:ios:c2dce703b2c2c48db50789",
+            "macos": "1:444330951212:ios:c2dce703b2c2c48db50789",
+            "web": "1:444330951212:web:2465da57e17c7ebdb50789"
+          }
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "tripthread-app-21bbf",
+          "appId": "1:444330951212:ios:c2dce703b2c2c48db50789",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "tripthread-app-21bbf",
+          "appId": "1:444330951212:android:30a76737cda1b847b50789",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  }
+}

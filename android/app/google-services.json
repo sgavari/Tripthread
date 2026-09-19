@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "444330951212",
+    "project_id": "tripthread-app-21bbf",
+    "storage_bucket": "tripthread-app-21bbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444330951212:android:30a76737cda1b847b50789",
+        "android_client_info": {
+          "package_name": "com.tripthread.tripthread"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444330951212-kgu9qeuuuuq2lavmld57sna1vke2nalh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJNbwzXMO7scCbAEvz_VJTnkepWGzxBr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444330951212-kgu9qeuuuuq2lavmld57sna1vke2nalh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444330951212-2rf5l779p2i06p2f79pv466glr87nohu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tripthread.tripthread"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
